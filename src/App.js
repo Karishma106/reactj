@@ -7,14 +7,14 @@ function App() {
   return (
   <div>
    
-  
-    <p>hey you</p>
+ 
     <p id="intro"></p>
-    <button type="button" onclick="h1()">black</button>
+    
+    <button type="button" onclick="h1()">red</button>
     <button type="button" onclick="h2()">blue</button>
     <button type="button" onclick="h3()">pink</button>
     <button type="button" onclick="h4()">lavender</button>
-    <h1 id="hey"></h1> 
+    
     <h1><b>HEY THERE !!!</b></h1>
         <p><em>THIS IS KARISHMA</em></p>
             

@@ -1,28 +1,45 @@
 div {
   
-  background-repeat: no-repeat;
+  background-color: black;
   background-attachment: fixed;
   background-size: cover;
   font-size: 20px;
-  color: black;
+  color: white;
+}
+h1{
+   color:palevioletred;
+}
+h2{
+  color: palevioletred;
+}
+h3{
+  color: palevioletred;
 }
 .grid-container{
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto;
 }
 .grid-item {
-  background-color:cyan;
+  background-color:pink;
   border: solid white;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   color: black;
 }
 .flex-container{
-  background-color: cyan;
-  font-size: 20px;
+  display: flex;
+  background-color: pink;
+  gap: 1rem;
+  font-size: 10px;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 .flex-item{
+  background-color:pink;
+  border: 5px solid white;
+  padding:20px;
+  gap: 10rem;
   text-align: center;
-  flex-direction: column;
   color: black;
 }
